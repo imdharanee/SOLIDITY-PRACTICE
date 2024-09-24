@@ -22,10 +22,10 @@ constructor(uint256 _initalsupply) {
      balanceof[msg.sender]=totalsupply;
 }
     
-function Name() public view returns(string) {
+function Name() public view returns(string storage) {
    return name;
 }
-function Symbol() public view returns(string) {
+function Symbol() public view returns(string storage) {
     return symbol;
 }
 function Decimals() public view returns (uint8) {
